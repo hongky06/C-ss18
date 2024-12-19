@@ -25,31 +25,11 @@ for (int i = 1 ;i < 5;i++){
 
 
 
-for (int i = 0; i < 5; i++) {
-        printf("Sinh viên %d:\n", i + 1);
+for (int i = 1; i < 5; i++) {
+        printf("Sinh viên %d:\n", i);
         printf("ten: %s\n", so[i].name);
         printf("tuoi: %d\n", so[i].tuoi);
         printf("sdt: %s\n", so[i].sdt);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 	return 0;
 }
